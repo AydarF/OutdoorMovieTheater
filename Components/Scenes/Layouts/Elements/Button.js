@@ -6,7 +6,7 @@ class Button extends React.Component {
   	return (
       <View style={{ margin: 0.1, height: 0.3, backgroundColor: '#1AC8F7'}}>
       	<VrButton>
-          <Text style={{fontSize: 0.2, textAlign: 'center'}}>Select a Movie</Text>
+          <Text style={{fontSize: 0.2, textAlign: 'center'}}>{this.props.buttonText}</Text>
       	</VrButton>
       </View>
   	);
