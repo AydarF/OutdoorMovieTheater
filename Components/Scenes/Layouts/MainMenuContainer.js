@@ -16,7 +16,7 @@ class MainMenuContainer extends React.Component {
           	transform: [{translate: [0,0,-5]}]
           }}>
             <Title text={this.props.text} />
-            <Button buttonText={this.props.buttonText} />
+            <Button buttonText={this.props.buttonText} updateScene={this.props.updateScene} scene={this.props.scene} />
           </View>
 		);
 	}
